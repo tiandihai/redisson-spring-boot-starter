@@ -1,4 +1,4 @@
-package com.zengtengpeng.properties;
+package com.unisound.ig.springboot.redisson.properties;
 
 
 import org.springframework.util.StringUtils;

@@ -1,6 +1,6 @@
-package com.zengtengpeng.annotation;
+package com.unisound.ig.springboot.redisson.annotation;
 
-import com.zengtengpeng.configuration.MQConfiguration;
+import com.unisound.ig.springboot.redisson.configuration.MQConfiguration;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 

@@ -1,4 +1,4 @@
-package com.zengtengpeng.enums;
+package com.unisound.ig.springboot.redisson.enums;
 
 /**
  * 锁的模式

@@ -1,9 +1,6 @@
-package com.zengtengpeng.annotation;
+package com.unisound.ig.springboot.redisson.annotation;
 
-import com.zengtengpeng.configuration.CacheConfiguration;
-import com.zengtengpeng.configuration.MQConfiguration;
-import org.springframework.cache.annotation.CacheEvict;
-import org.springframework.cache.annotation.CachePut;
+import com.unisound.ig.springboot.redisson.configuration.CacheConfiguration;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 

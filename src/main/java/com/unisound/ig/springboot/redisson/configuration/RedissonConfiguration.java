@@ -1,13 +1,12 @@
-package com.zengtengpeng.configuration;
+package com.unisound.ig.springboot.redisson.configuration;
 
-import com.zengtengpeng.aop.LockAop;
-import com.zengtengpeng.aop.MQAop;
-import com.zengtengpeng.mq.RedissonMQListener;
-import com.zengtengpeng.operation.RedissonBinary;
-import com.zengtengpeng.operation.RedissonCollection;
-import com.zengtengpeng.operation.RedissonObject;
-import com.zengtengpeng.properties.MultipleServerConfig;
-import com.zengtengpeng.properties.RedissonProperties;
+import com.unisound.ig.springboot.redisson.operation.RedissonBinary;
+import com.unisound.ig.springboot.redisson.operation.RedissonCollection;
+import com.unisound.ig.springboot.redisson.operation.RedissonObject;
+import com.unisound.ig.springboot.redisson.aop.LockAop;
+import com.unisound.ig.springboot.redisson.aop.MQAop;
+import com.unisound.ig.springboot.redisson.properties.MultipleServerConfig;
+import com.unisound.ig.springboot.redisson.properties.RedissonProperties;
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
 import org.redisson.client.codec.Codec;
@@ -87,7 +86,7 @@ public class RedissonConfiguration {
         switch (redissonProperties.getModel()){
             case SINGLE:
                 SingleServerConfig singleServerConfig = config.useSingleServer();
-                com.zengtengpeng.properties.SingleServerConfig param = redissonProperties.getSingleServerConfig();
+                com.unisound.ig.springboot.redisson.properties.SingleServerConfig param = redissonProperties.getSingleServerConfig();
                 singleServerConfig.setAddress(prefixAddress(param.getAddress()));
                 singleServerConfig.setConnectionMinimumIdleSize(param.getConnectionMinimumIdleSize());
                 singleServerConfig.setConnectionPoolSize(param.getConnectionPoolSize());

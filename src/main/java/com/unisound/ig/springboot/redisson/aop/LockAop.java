@@ -1,9 +1,9 @@
-package com.zengtengpeng.aop;
+package com.unisound.ig.springboot.redisson.aop;
 
-import com.zengtengpeng.annotation.Lock;
-import com.zengtengpeng.enums.LockModel;
-import com.zengtengpeng.excepiton.LockException;
-import com.zengtengpeng.properties.RedissonProperties;
+import com.unisound.ig.springboot.redisson.annotation.Lock;
+import com.unisound.ig.springboot.redisson.excepiton.LockException;
+import com.unisound.ig.springboot.redisson.properties.RedissonProperties;
+import com.unisound.ig.springboot.redisson.enums.LockModel;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;

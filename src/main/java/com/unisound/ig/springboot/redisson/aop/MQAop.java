@@ -1,6 +1,6 @@
-package com.zengtengpeng.aop;
+package com.unisound.ig.springboot.redisson.aop;
 
-import com.zengtengpeng.annotation.MQPublish;
+import com.unisound.ig.springboot.redisson.annotation.MQPublish;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;

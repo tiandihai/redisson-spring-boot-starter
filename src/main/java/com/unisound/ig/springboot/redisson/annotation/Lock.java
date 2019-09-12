@@ -1,6 +1,6 @@
-package com.zengtengpeng.annotation;
+package com.unisound.ig.springboot.redisson.annotation;
 
-import com.zengtengpeng.enums.LockModel;
+import com.unisound.ig.springboot.redisson.enums.LockModel;
 
 import java.lang.annotation.*;
 

@@ -1,10 +1,10 @@
-package com.zengtengpeng.mq;
+package com.unisound.ig.springboot.redisson.mq;
 
-import com.zengtengpeng.annotation.MQListener;
+import com.unisound.ig.springboot.redisson.annotation.MQListener;
+import com.unisound.ig.springboot.redisson.enums.MQModel;
 import org.redisson.api.RPatternTopic;
 import org.redisson.api.RTopic;
 import org.redisson.api.RedissonClient;
-import org.redisson.api.listener.PatternMessageListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;

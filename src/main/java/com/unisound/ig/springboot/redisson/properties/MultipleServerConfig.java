@@ -1,4 +1,4 @@
-package com.zengtengpeng.properties;
+package com.unisound.ig.springboot.redisson.properties;
 
 import org.redisson.config.ReadMode;
 import org.redisson.config.SubscriptionMode;

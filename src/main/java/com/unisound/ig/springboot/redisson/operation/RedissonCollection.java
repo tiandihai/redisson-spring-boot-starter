@@ -1,6 +1,6 @@
-package com.zengtengpeng.operation;
+package com.unisound.ig.springboot.redisson.operation;
 
-import com.zengtengpeng.properties.RedissonProperties;
+import com.unisound.ig.springboot.redisson.properties.RedissonProperties;
 import org.redisson.api.*;
 
 import javax.annotation.Resource;

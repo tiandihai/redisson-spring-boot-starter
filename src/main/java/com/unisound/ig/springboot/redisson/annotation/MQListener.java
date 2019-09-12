@@ -1,6 +1,6 @@
-package com.zengtengpeng.annotation;
+package com.unisound.ig.springboot.redisson.annotation;
 
-import com.zengtengpeng.enums.MQModel;
+import com.unisound.ig.springboot.redisson.enums.MQModel;
 
 import java.lang.annotation.*;
 

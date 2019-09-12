@@ -1,4 +1,4 @@
-package com.zengtengpeng.excepiton;
+package com.unisound.ig.springboot.redisson.excepiton;
 
 /**
  * 分布式锁异常
