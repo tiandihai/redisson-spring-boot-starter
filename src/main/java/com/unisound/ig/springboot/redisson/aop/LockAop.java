@@ -78,7 +78,11 @@ public class LockAop {
     public Object aroundAdvice(ProceedingJoinPoint proceedingJoinPoint, Lock lock) throws Throwable {
         String[] keys = lock.keys();
         if (keys.length == 0) {
-            throw new RuntimeException("keys不能为空");
+            String className = proceedingJoinPoint.getTarget().getClass().getName();
+            String methodName = proceedingJoinPoint.getSignature().getName();
+            keys = new String[1];
+            keys[0] = className + ":" + methodName;
+            //throw new RuntimeException("keys不能为空");
         }
         String[] parameterNames = new LocalVariableTableParameterNameDiscoverer().getParameterNames(((MethodSignature) proceedingJoinPoint.getSignature()).getMethod());
         Object[] args = proceedingJoinPoint.getArgs();
